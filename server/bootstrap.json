@@ -1,0 +1,48 @@
+{
+  "preflight": [
+    {
+      "file": "/Library/Application Support/installapplications/installapplications-preflight.sh", 
+      "hash": "0a0912e3dfa1bded176b51ff649355a695c0872cfc49da4f58aaacfae99513e1", 
+      "name": "installapplications-preflight.sh", 
+      "type": "rootscript", 
+      "url": "https://installapplications.therestoftheowl.com/preflight/installapplications-preflight.sh"
+    }
+  ], 
+  "setupassistant": [
+    {
+      "file": "/Library/Application Support/installapplications/DEPNotify-1.1.0.pkg", 
+      "hash": "dcfc65469a7895a266b0e8596b6a05a0f0d3507d473550a9efe430863eb39aec", 
+      "name": "DEPNotify-1.1.0.pkg", 
+      "packageid": "menu.nomad.DEPNotify", 
+      "type": "package", 
+      "url": "https://installapplications.therestoftheowl.com/setupassistant/DEPNotify-1.1.0.pkg", 
+      "version": "1.1.0"
+    }
+  ], 
+  "userland": [
+    {
+      "donotwait": true, 
+      "file": "/Library/Application Support/installapplications/caffeinate.py", 
+      "hash": "a09d0f168d74ac0ca910cd630416e2e8c1aefb0ab4701d4ae1aa5ae9e674d8b4", 
+      "name": "caffeinate.py", 
+      "type": "rootscript", 
+      "url": "https://installapplications.therestoftheowl.com/userland/caffeinate.py"
+    }, 
+    {
+      "file": "/Library/Application Support/installapplications/munkitools-3.4.1.3557.pkg", 
+      "hash": "3da472f032a2bd1e37ccaca9d8398f382fe5c0f16f654fe71fb632cd2b7e9bf8", 
+      "name": "munkitools-3.4.1.3557.pkg", 
+      "packageid": "com.googlecode.munki.core", 
+      "type": "package", 
+      "url": "https://installapplications.therestoftheowl.com/userland/munkitools-3.4.1.3557.pkg", 
+      "version": "3.4.1.3557"
+    }, 
+    {
+      "file": "/Library/Application Support/installapplications/run_munki.py", 
+      "hash": "20bfc12a1015e978c4bbe98f2dd06dc2e4315e6b7449be6ea3d578e6d1444a06", 
+      "name": "run_munki.py", 
+      "type": "rootscript", 
+      "url": "https://installapplications.therestoftheowl.com/userland/run_munki.py"
+    }
+  ]
+}
